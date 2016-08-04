@@ -28,7 +28,7 @@ Please go [[https://github.com/quarnster/SublimeClang/issues?sort=created&direct
   ## cmake ..
   ## make
   * Note that if a usable libclang library isn't found, it will be downloaded and built as part of the build process.
-
+  * For g++ >= 4.9 build projects must use libclang 3.4-2 or later to avoid "ABI incompability" with libstdc++.
 If you run into any issues, please have a look at issue [[https://github.com/quarnster/SublimeClang/issues/35|#35]] for additional notes or to ask for help.
 
 === Installation ===
